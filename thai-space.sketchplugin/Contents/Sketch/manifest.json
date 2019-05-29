@@ -1,0 +1,35 @@
+{
+  "$schema": "https://raw.githubusercontent.com/BohemianCoding/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Add space to all texts",
+      "identifier": "addSpace",
+      "script": "thai-space.js"
+    },
+    {
+      "name": "⚠️ [Test] Add emoji to all texts",
+      "identifier": "addEmoji",
+      "script": "thai-space.js",
+      "handlers": {
+        "run": "addEmoji"
+      }
+    }
+  ],
+  "menu": {
+    "title": "Thai Space",
+    "items": [
+      "addSpace",
+      "-",
+      "addEmoji"
+    ]
+  },
+  "version": "0.1.0",
+  "description": "",
+  "name": "thai-space",
+  "identifier": "thai-space",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "author": "notjiam",
+  "authorEmail": "notjiam@gmail.com"
+}
