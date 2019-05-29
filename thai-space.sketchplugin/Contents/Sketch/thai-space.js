@@ -163,13 +163,13 @@ var addEmojiToLast = function addEmojiToLast(texts) {
   sketch__WEBPACK_IMPORTED_MODULE_0___default.a.UI.message("Start adding space...");
   var texts = getAllTextsInDocument();
   addSpaceToLast(texts);
-  sketch__WEBPACK_IMPORTED_MODULE_0___default.a.UI.message("\uD83D\uDE4C Finish add space in ".concat(texts.length, " texts (Pls. Cmd + Z for undo)"));
+  sketch__WEBPACK_IMPORTED_MODULE_0___default.a.UI.message("\uD83D\uDE4C Finish add space in ".concat(texts.length, " texts"));
 });
 var addEmoji = function addEmoji() {
   sketch__WEBPACK_IMPORTED_MODULE_0___default.a.UI.message("Start adding 🙌...");
   var texts = getAllTextsInDocument();
   addEmojiToLast(texts);
-  sketch__WEBPACK_IMPORTED_MODULE_0___default.a.UI.message("\uD83D\uDE4C Finish add \uD83D\uDE4C in ".concat(texts.length, " texts"));
+  sketch__WEBPACK_IMPORTED_MODULE_0___default.a.UI.message("\uD83D\uDE4C Finish add \uD83D\uDE4C in ".concat(texts.length, " texts (Pls. Cmd + Z for undo)"));
 };
 
 /***/ }),

@@ -56,12 +56,12 @@ export default function() {
   sketch.UI.message("Start adding space...")
   const texts = getAllTextsInDocument()
   addSpaceToLast(texts)
-  sketch.UI.message(`🙌 Finish add space in ${texts.length} texts (Pls. Cmd + Z for undo)`)
+  sketch.UI.message(`🙌 Finish add space in ${texts.length} texts`)
 }
 
 export const addEmoji = () => {
   sketch.UI.message("Start adding 🙌...")
   const texts = getAllTextsInDocument()
   addEmojiToLast(texts)
-  sketch.UI.message(`🙌 Finish add 🙌 in ${texts.length} texts`)
+  sketch.UI.message(`🙌 Finish add 🙌 in ${texts.length} texts (Pls. Cmd + Z for undo)`)
 }
